@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om mig - Tobias</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <!-- Sida skapad av Tobias Lindberg -->
     <style>
         
-        /* Kommentar
-           på flera 
-           rader
-        */
         body{
             color: yellow;
         }
 
-        /* Använd kommentar främst för att dela in koden under olika rubriker */
         h1{
             color: lightcyan;
             background-color: blueviolet;
@@ -29,12 +25,41 @@
 
         body{
             background-color: #ffa5a5;
+            max-width: 13cm;
+        }
+        .width100 {
+            width: 100px;
+        }
+        div{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+        }
+        span{
+            background-color: green;
+            color: lightskyblue;
+        }
+        .white{
+            color: white;
+        }
+        #cyan{
+            background-color: cyan;
+        }
+        .right{
+            width: 200px;
+            float: right;
         }
     </style>
     <!-- Sida skapad av Tobias Lindberg -->
 </head>
 <body >
-    <h1>Om mig - Tobias</h1>
-    <p>Hej på dej.</p> <!-- Vilken färg har den här texten?-->
+    <h1 >Om mig - Tobias</h1>
+    <div></div>
+    <p class="white">Hej på dej.</p> <!-- Vilken färg har den här texten?-->
+    <p id="cyan">Lorem <strong>ipsum dolor</strong> sit amet consectetur adipisicing elit. In odio ex officia veritatis autem corrupti vel ea, tempore aliquid inventore magni placeat tenetur deleniti perspiciatis unde accusantium repellat! Ipsa, aut!</p>
+    <p>Lorem <span class="white"> ipsum dolor</span> sit amet consectetur adipisicing elit. <img src="./tobias-500x700.jpg" alt="Bild på Tobias" class="width100"> In odio ex officia veritatis autem corrupti vel ea, tempore aliquid inventore magni placeat tenetur deleniti perspiciatis unde accusantium repellat! Ipsa, aut!</p>
+    <img src="./tobias-500x700.jpg" alt="Bild på Tobias" class="right"> 
+    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. In odio ex officia veritatis autem corrupti vel ea, tempore aliquid inventore magni placeat tenetur deleniti perspiciatis unde accusantium repellat! Ipsa, aut!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odio ex officia veritatis autem corrupti vel ea, tempore aliquid inventore magni placeat tenetur deleniti perspiciatis unde accusantium repellat! Ipsa, aut!</p>
 </body>
 </html>
