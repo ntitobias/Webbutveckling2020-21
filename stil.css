@@ -1,0 +1,40 @@
+header{
+    background-color: lightblue;
+}
+nav{
+    background-color: lightgreen;
+    max-width: 200px;
+} 
+main{
+    background-color: lightsalmon;
+}
+footer{
+    background-color: lightyellow;
+}
+nav li{
+    color: blue;
+    background-color: yellow;
+    border: 8px solid blue;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+
+.knapp{
+    color: blue;
+    background-color: yellow;
+    border: 8px solid blue;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: orange;
+}
+a:active{
+    border-width: 4px;
+}
