@@ -1,3 +1,19 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: lightblue;
+}
+nav{
+    background-color: lightpink;
+}
+main{
+    background-color: lightyellow;
+}
+footer{
+    background-color: lightgreen;
+}
+
 .exempel{
     background-color: yellow;
     border: 10px solid blue;
