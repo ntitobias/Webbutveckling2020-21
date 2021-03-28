@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+</head>
+<body>
+    <form action="">
+        <label for="fname">Förnamn:</label><br>
+        <input type="text" name="fname" id="fname"><br>
+        <label for="lname">Efternamn:</label><br>
+        <input type="text" name="lname" id="lname"><br>
+
+        <fieldset>
+            <legend>Kön:</legend>
+            <input type="radio" name="gender" id="male" value="man">
+            <label for="male">Man</label><br>
+            <input type="radio" name="gender" id="female" value="kvinna">
+            <label for="female">Kvinna</label><br>
+            <input type="radio" name="gender" id="other" value="annat">
+            <label for="other">Vill inte ange</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Fordon:</legend>
+            <input type="checkbox" name="vehicle1" id="vehicle1" value="Cykel">
+            <label for="vehicle1">Jag har en cykel</label><br>
+            <input type="checkbox" name="vehicle2" id="vehicle2" value="Bil">
+            <label for="vehicle1">Jag har en bil</label><br>
+            <input type="checkbox" name="vehicle3" id="vehicle3" value="Båt">
+            <label for="vehicle1">Jag har en båt</label><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Skicka in">
+    </form>
+</body>
+</html>
